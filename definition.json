@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "id": "ohmonk",
+  "name": "Ohmonk",
+  "parameters": [
+    {
+      "id": "vowel",
+      "label": "Vowel",
+      "default": 0.48,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "display": "percent"
+    },
+    {
+      "id": "size",
+      "label": "Shape",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "display": "percent"
+    },
+    {
+      "id": "vibrato",
+      "label": "Vibes",
+      "default": 0.32,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "display": "percent"
+    },
+    {
+      "id": "delay",
+      "label": "Delay",
+      "default": 0.55,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "display": "percent"
+    }
+  ],
+  "presets": {
+    "Monotone Mantra": {
+      "vowel": 0.04,
+      "size": 0.5,
+      "vibrato": 0.0,
+      "delay": 0.0
+    },
+    "Tibetan Chant": {
+      "vowel": 0.46,
+      "size": 0.58,
+      "vibrato": 0.38,
+      "delay": 0.65
+    },
+    "Dorje Giant": {
+      "vowel": 0.12,
+      "size": 0.92,
+      "vibrato": 0.0,
+      "delay": 0.85
+    },
+    "Little Lama": {
+      "vowel": 0.78,
+      "size": 0.08,
+      "vibrato": 0.72,
+      "delay": 0.0
+    },
+    "Nasal Overtone": {
+      "vowel": 0.68,
+      "size": 0.25,
+      "vibrato": 0.0,
+      "delay": 0.48
+    },
+    "Wandering Monk": {
+      "vowel": 0.5,
+      "size": 0.75,
+      "vibrato": 0.88,
+      "delay": 0.9
+    }
+  },
+  "resources": {
+    "voiceBytes": 56,
+    "voiceAlignment": 4,
+    "voiceCapacity": 12,
+    "sharedBytes": 67888,
+    "outputPeakQ31": 1073741824,
+    "display": {
+      "stateBytes": 100,
+      "stateAlignment": 4,
+      "paths": 0,
+      "points": 0,
+      "nodes": 256,
+      "texts": 4,
+      "palette": 9
+    }
+  }
+}
